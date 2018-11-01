@@ -1,0 +1,68 @@
+body {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-family: 'Krub';
+}
+
+#title {
+    text-align: center;
+}
+
+#title h1 {
+    color: #424242;
+}
+
+#title h2 {
+    color: #616161;
+}
+
+
+#container {
+    position: relative;
+}
+
+svg {
+    display: block;
+    margin: auto;
+    background-color: #FFF;
+    border: 1px solid #E0E0E0;
+    box-shadow: 0px 4px 8px 0px #E0E0E0;
+    color: #616161;
+}
+
+text{
+    fill: #616161;
+    font-size: 14px;
+}
+
+#tooltip {
+    color: #FAFAFA;
+    background-color: #616161;
+    box-shadow: 0px 4px 8px #424242;
+    position: absolute;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 40% 60%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 0;
+    z-index: 2;
+    pointer-events: none;
+    min-width: 180px;
+}
+
+#tooltip h1 {
+    font-size: 20px;
+}
+
+#tooltip h2 {
+    font-size: 18px;
+}
+
